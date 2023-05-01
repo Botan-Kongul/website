@@ -49,8 +49,50 @@
     color: white;
 }
 
+.tech-skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap:10px;
+}
+
+.tech-skills span{
+    padding:10px;
+    font-weight: bold;
+    border-radius:4px;
+}
+
+
+
+.tech-skills span:nth-child(1){
+   background-color: #E34F26;
+}
+.tech-skills span:nth-child(2){
+    background-color: #1572B6;
+ }
+
+ .tech-skills span:nth-child(3){
+    background-color: #38B2AC;
+    
+ }
+ .tech-skills span:nth-child(4){
+    background-color: #F7DF1E;
+    color:black;
+ }
+
+ .tech-skills span:nth-child(5){
+    background-color: #61DAFB;
+    color:black;
+ }
+  
+.tech-skills span:nth-child(6){
+    background-color: #000000;
+}
+
 @media only screen and (max-width: 600px) {
-    /* Modify the CSS for screens smaller than 600px */
     .name {
       font-size: 3em;
     }
@@ -59,3 +101,4 @@
       font-size: 1.5rem;
     }
   }
+
