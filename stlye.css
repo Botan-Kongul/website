@@ -1,0 +1,50 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    height:100vh;
+    width:100vw;
+    background-image: linear-gradient(to right top, #2a446a, #27334f, #202436, #16161e, #020202);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    margin-bottom:2rem;
+    color:white;
+    cursor: pointer;
+    user-select: none;
+    transition:all .3s;
+}
+
+.name{
+    font-size:6em;
+}
+
+.title{
+    font-size:2rem;
+}
+
+.footer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.mail{
+    margin-top:10px;
+}
+.mail a {
+    text-decoration: none;
+    color: white;
+}
