@@ -91,6 +91,9 @@
 .tech-skills span:nth-child(6){
     background-color: #000000;
 }
+.tech-skills span:nth-child(7){
+    background: linear-gradient(to bottom right, #0ACF83, #A259FF);
+}
 
 @media only screen and (max-width: 600px) {
     .name {
